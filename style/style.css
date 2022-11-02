@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: URL('../assets/fonts/PlusJakartaSans[wght].ttf') format('truetype');
+  }
+
+:root {
+    --black: #000929;
+    --roxo: #7065F0;
+}
+
+*{
+    overflow-x: hidden;
+}
+
+body{
+    max-width: 100%;
+    font-family: 'Plus Jakarta Sans';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--black);
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 24px 46px 24px 61px;
+    align-items: center;
+}
+.headerContainer{
+    align-items: center;
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.headerContainer h1{
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 700;
+    margin:0 56px 0 9px;
+    padding: 0;
+}
+.headerContainer h3{
+    font-size: 16px;
+    margin-right: 48px;
+
+    
+}
+.headerContainer a{
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+.headerContainer select{
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--black);
+    margin-right: 51px;
+    font-family: 'Plus Jakarta Sans';
+    padding-right: 11px;
+}
+.headerContainer select:focus{
+    outline: none;
+}
+
+.login{
+    margin-right: 16px;
+    border: 2px solid #E0DEF7;
+    border-radius: 8px;
+    color: var(--black);
+    padding: 12px 24px;
+
+}
+.singUp{
+    color: #fff;
+    background-color: var(--roxo);
+    border-radius: 8px;
+    padding: 12px 24px;
+
+}
+.menuIcon{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    .headerContainer h3{
+        display:none;
+    
+        
+    }
+    .headerContainer select{
+        display:none;
+    }
+    .login{
+        display: none;
+    
+    }
+    .singUp{
+        display: none;
+    
+    }
+    header{
+        padding: 25px 32px 25px 37px;
+    }
+    .menuIcon{
+        display: block;
+
+    }
+  }
