@@ -93,7 +93,7 @@ header{
 .menuIcon{
     display: none;
 }
-/* Section 1 */
+/* Hero */
 .hero{
     position: relative;
     background: linear-gradient(180deg, #E0DEF7 0%, rgba(224, 222, 247, 0) 100%);
@@ -239,7 +239,7 @@ header{
     font-weight: 600;
     color: var(--black);
 }
-/* Manuel Villa */
+/* Hero/Manuel Villa */
 .manuelContainer{
     width: 270px;
     height: 285px;
@@ -326,8 +326,8 @@ header{
 .spanMobile{
     display: none;
 }
-/* seaction2 */
-.section2{
+/* About */
+.about{
     padding: 100px 160px;
     display: flex;
     justify-content: space-around;
@@ -393,8 +393,8 @@ header{
     color: #4d5461;
     width: 308px;
 }
-/* Section 3 */
-.section3{
+/* Form */
+.form{
     padding-top: 64px;
     padding-bottom: 80px;
     text-align: center;
@@ -459,6 +459,11 @@ header{
 }
 .spamButtonMobile{
     display: none;
+}
+/* Footer */
+.footerLogo{
+    display: flex;
+    align-items: center;
 }
 
 
