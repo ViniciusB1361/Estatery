@@ -370,7 +370,7 @@ header{
     bottom: 0;
 }
 .nHInfoContainer{
-    /* margin-left: 68px; */
+    margin-left: 64px;
 }
 .nHInfo{
     display: flex;
@@ -440,6 +440,7 @@ header{
 
 }
 .spamInputContainer input{
+    font-size: 18px;
     opacity: 0.5;
     color: var(--black);
     border: none;
@@ -461,9 +462,44 @@ header{
     display: none;
 }
 /* Footer */
+.footerTop{
+    padding: 80px 215px 48px 168px ;
+    display: flex;
+}
 .footerLogo{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    margin-right: 147px;
+}
+.collum{
+    margin-bottom: 48px;
+}
+.columns{
+    margin-right: 130px;
+    
+}
+.columns h3{
+    margin-bottom: 16px;
+    font-weight: 800;
+    font-size: 16px;
+}
+.columns li{
+    font-size: 16px;
+    color: var(--black);
+    opacity: 0.7;
+    line-height: 38px;
+}
+.footerBottom{
+    border-top: 1.5px solid #E8E6F9;
+    padding: 32px 202px 32px 160px;
+    opacity: 50%;
+    display: flex;
+    justify-content: space-between ;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footerBottom img{
+    padding-right:44px ;
 }
 
 
@@ -602,7 +638,7 @@ header{
         margin-top: 2px;
     }
     /* section 2 */
-    .section2{
+    .about{
         padding: 48px 24px;
         display: block;
         
@@ -639,11 +675,11 @@ header{
         width: 247px;
     }
     .nHInfoContainer{
-        padding-top: 48px;
+        margin: 48px 0 0 0;
 
     }
     /* Section 3 */
-    .section3{
+    .form{
         padding: 48px 24px ;
     }
     .spam h2{
@@ -679,6 +715,50 @@ header{
         border-radius: 8px;
 
     }
-    
+    footer{
+        padding: 54px 24px 48px 24px;
+    }
+    .footerTop{
+        padding: 0 ;
+        display: block;
+    }
+    .footerLogo{
+        font-size: 24px;
+        margin: 0 0 54px 11px ;
+    }
+    .footerLogo img{
+        margin-right: 9px;
+    }
+    .collum{
+        margin-bottom: 0;
+    }
+    .collum ul{
+        margin-bottom: 32px;
+    }
+    .columns{
+        margin-right: 0;
+
+    }
+    .columns h3{
+        margin-bottom: 16px;
+        
+    }
+    .footerBottom{
+        margin: auto;
+        padding: 32px 40px 50px 40px;
+        display: block;
+        
+    }
+
+    .footerSocialIcons{
+        width: 100%;
+        margin: 26px 0 0 26px ;
+        justify-content: space-between;
+
+    }
+    .collumRightMobile{
+        display: none;
+    }
+            
     
   }
